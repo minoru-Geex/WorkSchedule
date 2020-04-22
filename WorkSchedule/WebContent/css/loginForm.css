@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.msg {
+	color: gray;
+	font-size: 80%;
+
+}
+
+input.error  {
+	border: 1px solid red;
+
+}
+
+p.error {
+	color: red;
+}
+
+input[type="button"]#back {
+	background-color: #999999;
+}
+
+input[type="submit"]#back {
+	background-color: #999999;
+}
+
+input[type="submit"]#register {
+	background-color: #66ff66;
+}

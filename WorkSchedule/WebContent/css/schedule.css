@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.center {
+	text-align:center;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#personal ul {
+	list-style-type: none; /*箇条書きのポッチを消す*/
+	text-align:center /*左右中央寄せは親要素に対して指定*/
+}
+
+#personal ul li {
+	display: inline-block;
+	font-weight:bold;
+}
+.right {
+	margin-right:30px;
+}
+
+.under {
+	border-bottom: solid 2px black;
+
+}
+
+.right {
+	text-align:right;
+}
+
+table th, table td {
+
+	border: solid 1px black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.date {
+	margin-bottom: 10px;
+}
+
+#time {
+	border: solid 1px black;
+}
+
+div.button {
+	text-align:center;
+}
+
+div.button input {
+	margin: 0px 5px;
+}
+
+

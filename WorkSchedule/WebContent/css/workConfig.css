@@ -1,0 +1,13 @@
+@charset "UTF-8";
+input.error {
+	border: 1px solid red;
+}
+
+.msg {
+	color: gray;
+	font-size: 70%;
+}
+
+.errorMsg {
+	color: red;
+}
